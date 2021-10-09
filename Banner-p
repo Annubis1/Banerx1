@@ -232,7 +232,7 @@ esac
 }
 titilo() {
 b1
-echo -ne "${v}Máximo 40
+echo -ne "${v}Máximo <40
 Cuantas veces quiere que titule: $b"
 read veces
 }
