@@ -300,7 +300,7 @@ case $yaa in
 si|y|SI|Y)
 python2 Banner
 ;;
-no|n|NO|N|)
+no|n|NO|N)
 echo -e "$b"
 exit
 ;;
