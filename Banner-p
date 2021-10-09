@@ -297,7 +297,7 @@ b1
 echo -ne "${v}Ver Banner(si/no):$b "
 read yaa
 case $yaa in
-si|y|SI|Y|s|S)
+si|y|SI|Y)
 python2 Banner
 ;;
 no|n|NO|N|)
