@@ -8,10 +8,10 @@ Cuenta con 14 banners pre-establecidos y cuenta con 1 opcion para agregar algun 
 [+] ` pkg install -y git `
 [+] ` pkg install -y python2 `
 [+] ` termux-setup-storage `
-[+] ` git clone https://github.com/Anonymous-Zpt/T-banner4 `
-[+] ` cd T-banner4`
+[+] ` git clone https://github.com/Andiquis/Banner-pro `
+[+] ` cd Banner-pro`
 [+] ` chmod +x *`
-[+] ` bash T-banner `
+[+] ` bash Banner-p `
 
 # Creditos
 [+] <li><a href="https://github.com/DeepSociety">DeepSociety</font></a></li>
