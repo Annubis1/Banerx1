@@ -40,7 +40,7 @@ echo -e "$r\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ $A[$b+$A]${b}$b1 C
 echo
 sleep 0.5
 printf "${v}Instalando Dependencias..!$b\n"
-pkg install -y python python2 python3 cmatrix sl
+pkg install -y python2 python
 source 'T-banner'
 exit
 esac
