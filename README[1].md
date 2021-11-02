@@ -8,7 +8,7 @@
 <a href="https://github.com/Andiquis/Banner-pro/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Andiquis/Banner-pro?label=Watchers&color=blue&style=flat-square"></a>
 </div>
 
-# ¿Banner-pro? 
+# ¿Que es Banner-pro? 
 Banner-pro es una herramienta para personalizar la interfaz de termux, para que tenga una aparencia mas agradable.
 Cuenta con 14 banners pre-establecidos y cuenta con 1 opcion para agregar algun banner a su preferencia teniendo en cuenta que no todos los caracteres del banner son aceptados.
 # Instalación 
