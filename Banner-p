@@ -36,7 +36,7 @@ echo -e "\n$r[-]$b1 Banner-p:$r No Hay Conexion A Internet.\n$b"
 exit
 esac
 clear
-echo -e "$r\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ $A[$b+$A]${b}$b1 Creador:    $a Anderson$r\n████▌▄▌▄▐▐▌█████ $A[$b+$A]${b}$b1 Herramienta:$a Banner-pro$r\n████▌▄▌▄▐▐▌▀████ $A[$b+$A]${b}$b1 Github:     $a https://github.com/Andiquis$r\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ $A[$b+$A]${b}$b1 Youtube:    $a http://www.youtube.com/c/...$r\n$b"
+echo -e "$r\n┏━━┓░░░░░░░░░░░░░░░░░░ $A[$b+$A]${b}$b1 Creador:    $a Anderson$r\n┃┏┓┃┏━┓░┏━┳┓┏━┳┓┏━┓┏┳┓ $A[$b+$A]${b}$b1 Herramienta:$a Banner-pro$r\n┃┏┓┃┏━┓░┏━┳┓┏━┳┓┏━┓┏┳┓ $A[$b+$A]${b}$b1 Github:     $a https://github.com/Andiquis$r\n┗━━┛┗━━┛┗┻━┛┗┻━┛┗━┛┗┛░ $A[$b+$A]${b}$b1 Youtube:    $a http://www.youtube.com/c/...$r\n$b"
 echo
 sleep 0.5
 printf "${v}Instalando Dependencias..!$b\n"
@@ -72,7 +72,7 @@ sleep 0.5
 echo -e "${v}Elige un  banner ...jj:$b"
 echo -e " $A[${b1}01$A]${b1} Kuaker
  $A[${b1}02$A]${b1} Hacker
- $A[${b1}03$A]${b1} Ruby
+ $A[${b1}03$A]${b1} Android
  $A[${b1}04$A]${b1} Bash
  $A[${b1}05$A]${b1} Craneo
  $A[${b1}06$A]${b1} Craneo2
@@ -96,7 +96,7 @@ banner=$(cat ~/Banner-pro/.Banners/kuaker)
 banner=$(cat ~/Banner-pro/.Banners/hacker)
 ;;
 03|3)
-banner=$(cat ~/Banner-pro/.Banners/ruby)
+banner=$(cat ~/Banner-pro/.Banners/Android)
 ;;
 04|4)
 banner=$(cat ~/Banner-pro/.Banners/bash)
@@ -138,7 +138,7 @@ case $(ping -c 1 -q www.google.com >&/dev/null; echo $?) in
 0)
 echo -e "${A}Instalando Dependencias..."
 sleep 0.8
-pkg install -y nano vim
+pkg install -y nano
 ;;
 *)
 echo -e "$r[-]\033[0m  Esta Funcion Necesita Conexion A Internet."
