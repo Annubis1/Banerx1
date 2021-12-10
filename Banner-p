@@ -250,7 +250,7 @@ echo '          /data/data/com.termux/files/usr/libexec/termux/command-not-found
 echo "  }" >> $PREFIX/etc/bash.bashrc
 echo "fi" >> $PREFIX/etc/bash.bashrc
 echo >> $PREFIX/etc/bash.bashrc
-echo "PS1='\-_-$ '" >> $PREFIX/etc/bash.bashrc
+echo "PS1=':> '" >> $PREFIX/etc/bash.bashrc
 fi
 echo "python2 ~/Banner-pro/Banner" >> $PREFIX/etc/bash.bashrc
 rm Banner &>> /dev/null
